@@ -1,0 +1,31 @@
+/*
+* @Author: zxy
+* @Date:   2017-12-17 14:10:44
+* @Last Modified by:   zxy
+* @Last Modified time: 2017-12-17 14:10:44
+*/
+
+.nav{
+	background: #eee;
+	height: 30px;
+	line-height: 30px;
+}
+
+.nav .user{
+	float: left;
+}
+.nav .user .link{
+	margin-right: 5px;
+}
+.nav .user.login{
+	display: none;
+}
+.nav .nav-list{
+	float: right;
+}
+
+.nav .nav-list .nav-item{
+	display: inline-block;
+	// float: left;
+	margin-left: 5px;
+}

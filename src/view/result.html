@@ -5,11 +5,14 @@
 <title><%= htmlWebpackPlugin.options.title%>-zxy电商平台</title>
 </head>
 <body>
-<%= require('html-loader!./layout/nav.html') %>
-<%= require('html-loader!./layout/header.html') %>
+<%= require('html-loader!./layout/nav-simple.html') %>
 <div class="page-wrap w">
-	<%= require('html-loader!./layout/nav-side.html') %>
-    <div class="content with-nav"></div>
+    <div class="result-con default-success">
+    	<div class="result-title">恭喜你,注册成功!</div>
+    	<div class="result-content">
+    		<a href="./index.html" class="link">回到首页</a>
+    	</div>
+    </div>
 </div>
 <%= require('html-loader!./layout/footer.html') %>
 </body>

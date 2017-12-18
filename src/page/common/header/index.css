@@ -1,0 +1,33 @@
+/*
+* @Author: zxy
+* @Date:   2017-12-17 15:20:20
+* @Last Modified by:   zxy
+* @Last Modified time: 2017-12-17 15:20:20
+*/
+.header .logo{
+	position: absolute;
+	display: block;
+	left: 50px;
+	top: 34px;
+	font-size: 36px;
+	color: #c60023;
+	font-weight: bold;
+}
+.header .search-con{
+	padding: 40px 0 30px 250px;
+}
+.search-input{
+	width: 550px;
+	height: 40px;
+	line-height: 40px;
+	padding-left: 10px;
+	font-size: 20px;
+	border:2px solid #c60023;
+	outline: none;
+}
+.header .search-con .search-btn{
+	position: absolute;
+	height: 44px;
+	width: 80px;
+	color: #fff;
+}
